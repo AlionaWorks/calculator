@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.header {
+    margin-top: 30px;
+}
+
+.header, .calculator {
+    background-color:sandybrown;
+    position:relative; 
+    left: 45%;
+    border: solid 1px black;
+    margin-left:-100px;
+    width: 385px;
+}
+
+.history, .result {
+    text-align: right;
+    height: 30px;
+    justify-content: center;
+}
+
+.block {
+    margin: 10px;  
+}
+
+.block-delete {
+    text-align: right;
+}
+
+.figure {
+    width: 85px;
+    padding: 30px;
+    background-color:salmon;
+}
+
+.figure:hover {
+    background-color: darksalmon;
+    border: solid 1px rgb(81, 0, 0);
+}
